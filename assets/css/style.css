@@ -1,0 +1,124 @@
+* { margin: 0; padding: 0; }
+
+body {
+    background-color: #ECEFF1;
+}
+
+.header-menu {
+    font-family: Montserrat,sans-serif;
+    height: 75px;
+    background-color:#FFFFFF;
+    border-bottom: solid;
+    border-color: blueviolet;
+}
+
+.btn-search {
+    width: 250px;
+    height: 42px;
+    border-radius: 20px;
+    background-color: #F5F6FA;
+    opacity: 0.5;
+    border: none;
+}
+
+.material-icons {
+    position: relative;
+    left: 5em;
+}
+
+.header-menu ul {
+    display: flex;
+    margin:25px;
+    flex: 1 1 auto;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.header-menu ul li a {
+    color: #676b67;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.content-menu {
+    font-family: Montserrat, verdana, sans-serif;
+    font: 14px;
+    background-color: #F6F7F7;
+    height: 405px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 6px;
+}
+
+.content-menu ul {
+    display: flex;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.content-menu ul li a {
+    color: #373737;
+    text-decoration: none;
+    padding: 15px 0;
+    margin: 75px;
+}
+
+.content-sub-menu {
+    background-color: #FFFFFF;
+    text-decoration: none;
+    padding: 15px 0;
+    width: 1249px;
+    border-radius: 6px;
+}
+
+.section-content {
+    background-color: #FFFFFF;
+    font-family: Montserrat, verdana, sans-serif;
+    height: 289px;
+    margin: 25px 25px 80px 25px;
+    border-radius: 6px;
+}
+
+.section-content h1{
+    color: #2D3337;
+    margin: 20px 40px;
+    font-size: 30px;
+}
+
+.section-content p{
+    margin: 20px 40px;
+}
+
+.footer {
+    height: 285px;
+    background-color: #F8FAFB;
+    font-family: Montserrat, verdana, sans-serif;
+    color: #757575;
+    margin-top: 25px;
+}
+
+.footer-menu {
+    margin: 0 65px;
+    list-style-type: none;
+}
+
+.footer-menu li a{
+    text-decoration: none;
+    color: #757575;
+    margin: 0 0 0 15px;
+
+}
+
+.contato {
+    width: 201px;
+    height: 40px;
+    border: 1px solid;
+    text-align: center;
+    padding: 20px 20px 10px 28px;
+    border-radius: 4px;
+    color: #8795A2;
+    margin-left: 40%;
+    margin-top: -5%;
+
+}
